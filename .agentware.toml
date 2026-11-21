@@ -1,0 +1,3 @@
+[project]
+track = "open"
+pitch = "An autonomous SecOps agent that triages logs, detects threats, and proposes remediations using a deterministic, code-enforced policy engine to prevent destructive actions."
