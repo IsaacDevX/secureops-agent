@@ -15,3 +15,8 @@ An autonomous, safety-gated security operations agent.
 
 ## Demo
 [Link to 3-minute demo video will be placed here]
+### Demo
+To see the human-in-the-loop guardrail in action:
+1. Run `python src/main.py test-threat.txt`
+2. The agent will propose blocking an IP.
+3. The Policy Engine will intercept the action and require human authorization.

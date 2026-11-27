@@ -20,7 +20,7 @@ class PolicyEngine:
                 if re.search(pattern, cmd, re.IGNORECASE):
                     return "BLOCKED", f"Security Violation: Destructive command detected ({pattern})."
 
-        if tool_name in ["send_email", "delete_file"]:
+        if tool_name in ["send_email", "delete_file" , "block_ip"]:
             return "REQUIRES_APPROVAL", f"Action '{tool_name}' requires human authorization."
 
         return "ALLOWED", "Safe to execute."
