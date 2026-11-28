@@ -14,7 +14,7 @@ An autonomous, safety-gated security operations agent.
 - [SAFETY.md](SAFETY.md): Guardrails, Kill Switch, and Monitoring.
 
 ## Demo
-[Link to 3-minute demo video will be placed here]
+https://youtu.be/kfZOkMY2Mz4
 ### Demo
 To see the human-in-the-loop guardrail in action:
 1. Run `python src/main.py test-threat.txt`
